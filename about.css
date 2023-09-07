@@ -1,0 +1,101 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pl-px {
+    padding-left: 50px;
+}
+.borders {
+    background-color: #F2F5FC;
+    height: 600px;
+    width: 1100px;
+}
+.node {
+    width: 240px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 7px;
+    margin-right: 20px;
+    position: absolute;
+    bottom: 720px;
+    left: 1000px;
+}
+.larv {
+    width: 240px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 7px;
+    margin-right: 20px;
+    position: absolute;
+    bottom: 720px;
+    left: 750px;
+}
+.vue {
+    width: 240px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 7px;
+    margin-right: 20px;
+    position: absolute;
+    top: 470px;
+    left: 1000px;
+} 
+.rea {
+    width: 240px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 7px;
+    margin-right: 20px;
+    position: absolute;
+    left: 750px;
+    top: 470px;
+}
+.img {
+    border-radius: 100%;
+    margin-left: 30px;
+}
+.span {
+    border: 1px solid white;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    
+}
+.process {
+    border: 1px solid white;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 20px;
+    position: absolute;
+    right: 750px;
+    top: 490px;
+    /* // display: flex; */
+    .p-text-iv {
+        font-weight: 100;
+        font-size: 14px;
+        font-family: poppins;
+    }
+    .p-text-v {
+        font-weight: 600;
+        font-size: 15px;
+        font-family: poppins;
+        padding-top: 7px;
+        width: 510px;
+    }
+    .p-text-vi {
+        font-weight: 550;
+        font-size: 12px;
+        font-family: poppins;
+        padding-top: 8px;
+        width: 541px;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:600px) {
+
+}
